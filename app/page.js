@@ -1,103 +1,188 @@
-import Image from "next/image";
 
-export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+export default function Landingpage()
+{
+  return(
+    <div>
+      <div className="flex flex-col bg-gray-200 w-full">
+    <div className="min-h-screen bg-black h-[500px]  items-center rounded-[80px] mx-[100px] flex flex-col">
+     <div className="bg-blue-950 h-[100px] w-full md:w-[1200px] flex flex-row justify-center items-center py-2 ">
+      <img src="https://themehealer.com/php-template/crank-php/assets/images/resources/logo-1.png"/>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+     <div className="flex flex-row"> 
+          <div className="hidden md:block px-[40px] underline underline-offset-4 mr-[20px] mt-2.5  text-gray-400 font-bold">
+            Home
+          </div>
+          <div className="hidden md:block px-[0px] underline underline-offset-4 mr-[20px] mt-2.5   text-gray-400 font-bold">
+            About us
+          </div>
+          <div className="hidden md:block px-[10px] underline underline-offset-4 mr-[20px] mt-2.5  text-gray-400 font-bold">
+            pages
+          </div>
+          <div className="hidden md:block px-[10px] underline underline-offset-4 mr-[20px] mt-2.5 text-gray-400 font-bold">
+            Shop
+          </div>
+          <div className="hidden md:block px-[10px] underline underline-offset-4 mr-[20px] mt-2.5 text-gray-400 font-bold">
+            blog
+          </div>
+          <div className="hidden md:block px-[10px] underline underline-offset-4 mr-[20px] mt-2.5 text-gray-400 font-bold">
+            contact
+          </div>
+
+          </div>
+           <div className="flex flex-row">
+             <div className="hidden md:block rounded-full  bg-gray-600  border border-b-cyan-950 border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">F</div>
+             <div className="hidden md:block rounded-full  bg-gray-600  border border-b-cyan-950 border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] ml-[10px] w-[50px] py-2">F</div>
+             <div className="hidden md:block rounded-full  bg-gray-600  border border-b-cyan-950 border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] ml-[10px] w-[50px] py-2">F</div>
+             <div className="hidden md:block rounded-full  bg-gray-600  border border-b-cyan-950 border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] ml-[10px] w-[50px] py-2">F</div>
+             <div className="hidden md:block rounded-full  bg-gray-600  border border-b-cyan-950 border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] ml-[10px] w-[50px] py-2">F</div>
+           </div>
+             <div className="hidden md:block rounded-full  bg-gray-600  border border-b-cyan-950 border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] ml-[10px] w-[50px] py-2">F</div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        
+        {/*hero section*/}
+      <div className="flex flex-row bg-black-200 h-[60%] w-[1500px] text-white rounded-4xl ml-[200px]">
+        {/* text*/}
+        <div>
+          <div className="text-white text-lg font-bold text-[45px] w-[400px] font-semibold mt-[100px]">
+            Where Quality is A <br />Service Meets The<br />
+            <span className="text-red-600">Open Road</span>
+            <div className="text-white text-sm">car service is essential for maintaining the performance and <br/>
+            longevity of your vehicle from all changes ar service</div>
+          </div>
+          <div className="flex flex-row  ">
+          <div className="rounded-4xl border border-red-700 border-4 bg-cyanw-[150px] h-[50px] w-[150px] text-center mt-[30px] py-2">
+            Get started
+          </div>
+             <div className="rounded-full  bg-white  border border-black mt-[30px] ml-[50px] border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">
+          </div>
+          </div>
+        </div>
+ 
+          <div className=" h-[1000px] w-[1000px] ml-[350px] mt-[80px] rounded-2xl">
+          <img className="hidden md:block w-[450px] rounded-3xl "
+          src="https://themehealer.com/php-template/crank-php/assets/images/resources/main-slider-img-2.jpg" />
+        </div>
+      </div>
+          
+          {/* Statistics overlay card */}
+          <div className='bg-white w-[1000px] h-[100px] 
+          absolute bottom-[-40px] rounded-md shadow-white shadow-md border
+          border-black flex flex-row items-center justify-evenly space-x-2.5 '>
+            <div className='font-extrabold text-4xl'>
+              600+
+            </div>
+            <div className='font-extrabold text-4xl'>
+              2K+
+            </div>
+            <div className='font-extrabold text-4xl'>
+              53+
+            </div>
+            <div className='font-extrabold text-4xl'>
+              3K+
+            </div>
+
+          </div>
+
+        </div>
+
+        
+      <div className="flex flex-col bg-white w-[1500px] h-[600px] items-center rounded-[80px]  mr-[10px] mx-[100px] mt-[120px]">
+      <div className="flex flex-row mt-[150px] ml-[100px] space-x-20.5 shadow-cyan-200 shadow-2xs ">
+<div className="flex flex-col items-center justify-center 
+w-[300px] h-[300px] rounded-md border-2 border-black 
+hover:bg-black hover:text-white">
+
+  <div className="bg-linear-60 bg-indigo-400 w-[80px] h-[80px] rounded-full"></div>
+
+  <div className="font-bold text-lg mt-2">
+    Transformation Advising
+  </div>
+
+  <div className="text-center">
+    Car service is essential for maintaining the performance and 
+    longevity of your vehicle. From oil changes Car service
+  </div>
+
+</div>
+
+<div className="flex flex-col items-center justify-center 
+w-[300px] h-[300px] rounded-md border-2 border-black 
+hover:bg-black hover:text-white">
+
+  <div className="bg-linear-60 bg-indigo-400 w-[80px] h-[80px] rounded-full"></div>
+
+  <div className="font-bold text-lg mt-2">
+    Transformation Advising
+  </div>
+
+  <div className="text-center">
+    Car service is essential for maintaining the performance and 
+    longevity of your vehicle. From oil changes Car service
+  </div>
+
+</div>
+<div className="flex flex-col items-center justify-center 
+w-[300px] h-[300px] rounded-md border-2 border-black 
+hover:bg-black hover:text-white">
+
+  <div className="bg-linear-60 bg-indigo-400 w-[80px] h-[80px] rounded-full"></div>
+
+  <div className="font-bold text-lg mt-2">
+    Transformation Advising
+  </div>
+
+  <div className="text-center">
+    Car service is essential for maintaining the performance and 
+    longevity of your vehicle. From oil changes Car service
+  </div>
+
+</div>
     </div>
-  );
+    </div>
+
+
+    <div className="flex flex-row bg-white w-[1500px] h-[580px] rounded-[80px]  mx-[100px] mt-[110px]">
+      <div>
+      <div className="text-red-600 text-[20px]  w-2/3 flex flex-col ml-10 mt-11">About Us</div>
+      <div className="text-[40px] text-black  ml-10 ">Fast and Reliable Car Care<br></br>Your Car Our Priority</div>
+      <div className="text-[20px] text-black  ml-10  mt-5">Car service is essential for maintaining the performance and<br/> longevity of your vehicle. From oil changes Car service</div>
+      <div className="font-bold ml-10 mt-7">Fast and Reliable Car Care Your Car Our Priority</div>
+      <div className="font-bold ml-10 mt-1">Free with pur services care for your car</div>
+      <div className="font-bold ml-10 mt-1">Top notch care for your vehicle</div>
+      <div className="font-bold ml-10 mt-1">Express service for your vehicle drive stress</div>
+      <div className="font-bold ml-10 mt-1">Your trusted car service provider</div>
+      </div>
+       <div className="flex justify-center items-center w-1/3 h-[400px] mt-[70px] ml-[300px] rounded-2xl">
+          <img className=" w-[450px] rounded-3xl "
+          src="https://themehealer.com/php-template/crank-php/assets/images/resources/main-slider-img-2.jpg" />
+        </div>
+       
+     </div>
+
+
+     <div className="flex flex-row bg-black w-[1500px] h-[100px] rounded-[10px] mx-[100px] mt-[80px] items-center justify-evenly space-x-2.5 ">
+      <div className='font-extrabold text-4xl text-white mt-[20px]'>
+              Dropbox
+            </div>
+            <div className='font-extrabold text-4xl  text-white mt-[20px]'>
+              Spotify
+            </div>
+            <div className='font-extrabold text-4xl  text-white mt-[20px]'>
+              GIZMODO
+            </div>
+            <div className='font-extrabold text-4xl  text-white mt-[20px]'>
+              coinbase
+            </div>
+            <div className='font-extrabold text-4xl  text-white mt-[20px]'>
+              slack
+            </div>
+     </div>
+
+
+
+
+    </div>
+    </div>
+  )
 }
+ 

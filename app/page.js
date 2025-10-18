@@ -3,7 +3,7 @@ export default function Landingpage()
 {
   return(
     <div>
-      <div className="  flex flex-col md: bg-gray-200 md:w-full w-[850px] ml-[20px] mr-[20px] ">
+      <div className="  flex flex-col md: bg-gray-200 md:w-full w-[900px]  justify-center items-center mr-[20px] ">
     <div className="min-h-screen bg-black h-[500px] md:w-[1500px] w-[530px] md:h-[650px]  items-center rounded-[80px] mx-[100px] flex flex-col">
      <div className="bg-blue-950 h-[100px] w-full md:w-[1200px] flex flex-row justify-center items-center py-2 ">
       <img src="https://themehealer.com/php-template/crank-php/assets/images/resources/logo-1.png"/>
@@ -66,7 +66,7 @@ export default function Landingpage()
           
           {/* Statistics overlay card */}
           <div className='bg-white md:w-[1000px] w-[150px] md:h-[100px] h-[250px] 
-          absolute bottom-[-100px] md:bottom-[-40px] rounded-md shadow-white shadow-md border
+          absolute bottom-[-120px] md:bottom-[-40px] rounded-md shadow-white shadow-md border
           border-black flex md:flex-row flex-col items-center justify-evenly space-x-2.5  dark:bg-white dark:shadow-red-500 dark:text-black'>
             <div className='font-extrabold text-4xl'>
               600+
@@ -86,14 +86,14 @@ export default function Landingpage()
         </div>
 
         
-      <div className="flex flex-col bg-white md:w-[1500px] w-[530px] md:h-[650px] h-[1300px] items-center rounded-[80px]  mr-[10px] mx-[100px] mt-[120px]">
+      <div className="flex flex-col bg-white md:w-[1500px] w-[530px] md:h-[650px] h-[1300px] items-center rounded-[80px]  mr-[10px]  mt-[120px]">
         <div className="text-red-500 font-bold text-[15px] flex flex-col items-center justify mt-10">LATEST SERVICE</div>
         <div className='font-bold md:text-4xl text-3xl text-black mt-[10px]'>Your Trusted Car Provider</div>
         <div className='font-bold md:text-4xl text-3xl text-black mt-[10px]'>Keeping Your vehicle</div>
       <div className="flex md:flex-row flex-col mt-[50px] space-x-20.5 shadow-cyan-200 shadow-2xs ">
 <div className="flex flex-col items-center justify-center 
 w-[300px] h-[300px] rounded-md border-2 border-black 
-hover:bg-black hover:text-white  dark:border-white dark:hover:bg-white ml-[50px]">
+hover:bg-black hover:text-white ml-[50px]">
 
   <div className="bg-linear-60 bg-indigo-400 w-[80px] h-[80px] rounded-full "></div>
 
@@ -163,7 +163,7 @@ hover:bg-black hover:text-white ml-[50px] ">
      </div>
 
 
-     <div className="flex md:flex-row flex-col bg-black md:w-[1500px] w-[300px] md:h-[100px] h-[1000px] md:ml-[100px] ml-[200px] rounded-[10px] mx-[100px] mt-[80px] items-center justify-evenly space-x-2.5 ">
+     <div className="flex md:flex-row flex-col bg-black md:w-[1500px] w-[300px] md:h-[100px] h-[1000px] md:ml-[100px] ml-[100px] rounded-[10px] mx-[100px] mt-[80px] items-center justify-evenly space-x-2.5 ">
       <div className='font-extrabold text-4xl text-white mt-[5px]'>
               Dropbox
             </div>
@@ -182,17 +182,17 @@ hover:bg-black hover:text-white ml-[50px] ">
      </div>
 
      <div className="flex md:flex-row ">
-     <div className="text-red-600 font-bold text-[17px] flex flex-col md:ml-[100px] ml-[150px] mt-30">LATEST GALLERY
+     <div className="text-red-600 font-bold text-[17px] flex flex-col md:ml-[50px] mx-[100px] ml-[100px] mt-30">LATEST GALLERY
         <div className='font-bold md:text-5xl text-3xl  text-black  mt-[10px]'>Quality Service, Every Time</div>
         <div className='font-bold md:text-5xl text-3xl  text-black  mt-[10px]'>Drive Safe Stay Secure</div>
         </div>
-        <div className="hidden md:block text-[20px] text-black  ml-[300px]  mt-50 ">Car service is essential for maintaining the performance and <br/> longevity of your vehicle. From oil changes</div>
+        <div className="hidden md:block text-[20px] text-black  ml-[250px]  mt-50 ">Car service is essential for maintaining the performance and <br/> longevity of your vehicle. From oil changes</div>
         </div>
 
         
        
         <div className=" flex md:flex-row mt-[60px]  rounded-2xl">
-          <img className=" ml-[100px] h-70 w-120 rounded-3xl "
+          <img className=" ml-[50px] h-70 w-120 rounded-3xl "
           src="https://themehealer.com/php-template/crank-php/assets/images/gallery/gallery-1-1.jpg" />
 
           <img className=" hidden md:block ml-[30px] h-70 w-120 rounded-3xl "
@@ -203,7 +203,7 @@ hover:bg-black hover:text-white ml-[50px] ">
           
         </div>
         <div className=" flex flex-row mt-[30px]  rounded-2xl">
-          <img className=" ml-[100px] h-70 w-120  rounded-3xl "
+          <img className=" ml-[50px] h-70 w-120  rounded-3xl "
           src="https://themehealer.com/php-template/crank-php/assets/images/gallery/gallery-1-4.jpg" />
 
           <img className=" hidden md:block ml-[30px] h-70 w-120 rounded-3xl "
